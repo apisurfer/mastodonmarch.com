@@ -6,6 +6,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://mastodonmarch.com",
   integrations: [tailwind(), mdx(), sitemap()],
   output: "server",
   adapter: cloudflare(),
